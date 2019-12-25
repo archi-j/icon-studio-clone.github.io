@@ -1,10 +1,13 @@
 ---
 layout: page
 title: About
-date: 2019-11-03 13:32:20 +0300
+date: 2019-12-25 20:38:20 +0300
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm a graduate researcher and interest in architectural design, construction 3D printing and computer vision. <br>
+This blog is used for archiving my studies in my spare time. <br>
+If you have any questions, please feel free to send me an email:)
 
-email: j_chung@yonsei.ac.kr
+<center> #Contract: j_chung@yonsei.ac.kr </center>
+#Contract: j_chung@yonsei.ac.kr

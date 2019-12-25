@@ -6,6 +6,10 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);//google web font added
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -84,7 +88,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace, monospace, 'Noto Sans KR Light';
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -140,7 +144,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace, monospace, 'Noto Sans KR Light';
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -231,7 +235,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: sans-serif. 'Noto Sans KR Light';
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -773,8 +777,13 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  color: #515151;
+  font-family: 'Lato', sans-serif, 'Noto Sans KR Light';
+  color: #333;
+  letter-spacing: 0.8px;
+  line-height: 29.3333px;
+  font-size: 14.6667px;
+  word-break: break-word;
+  word-wrap: break-word;
   background-color: #fbfbfb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -978,7 +987,7 @@ table tfoot td {
 }
 
 .about p {
-  font-family: sans-serif;
+  font-family: sans-serif, 'Noto Sans KR Light';
   margin: 0 0 10px;
   font-size: 2.0rem;
   font-weight: 700;
@@ -1148,7 +1157,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif, 'Noto Sans KR Light';
   text-decoration: none;
   color: #263959;
 }
@@ -1480,7 +1489,7 @@ a.newer-posts:hover {
 }
 
 .head{
-  font-family: sans-serif;
+  font-family: sans-serif, 'Noto Sans KR Light';
   color:black;
   font-size: 2.5rem;
   font-weight: 700;
