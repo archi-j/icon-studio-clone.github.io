@@ -4,8 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/icon-studio.github.io" # the subpath of your site, e.g. /blog
-url: "https://j-chung.kr" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://archi-j.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -44,10 +44,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 urls:
     - text: About
-      url: /icon-studio.github.io/about/
+      url: /about/
     - text: Grasshopper
-      url: /icon-studio.github.io/GH/
+      url: /GH/
     - text: Construction 3D Printing
-      url: /icon-studio.github.io/3DP/
+      url: /3DP/
     - text: Computer Vision
-      url: /icon-studio.github.io/CV/
+      url: /CV/
