@@ -7,8 +7,8 @@ rvm:
 
 install:
   # Install Jekyll and dependencies
-  - gem update --system 2.6.12
-  - gem install bundler --version 1.14.6
+  #- gem update --system 2.6.12
+  #- gem install bundler --version 1.14.6
 
 
 before_script:
