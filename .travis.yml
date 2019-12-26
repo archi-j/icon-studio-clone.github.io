@@ -7,9 +7,9 @@ rvm:
 
 install:
   # Install Jekyll and dependencies
-  - sudo bundle update rake
-  - gem update --system 2.6.12
-  - gem bundle install bundler --version 1.14.6
+  - gem update --system
+  - bundle install
+
 
 before_script:
   - git config --global user.email "j_chung@yonsei.ac.kr"
