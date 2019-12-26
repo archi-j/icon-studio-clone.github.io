@@ -3,13 +3,13 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-- 2.5.3
+- 2.4.2
 
 install:
   # Install Jekyll and dependencies
-  - bundle update rake
-  - gem update --system
-  - bundle install
+  - sudo bundle update rake
+  - gem update --system 2.6.12
+  - gem bundle install bundler --version 1.14.6
 
 before_script:
   - git config --global user.email "j_chung@yonsei.ac.kr"
