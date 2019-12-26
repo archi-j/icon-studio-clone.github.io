@@ -7,7 +7,8 @@ rvm:
 
 install:
   # Install Jekyll and dependencies
-  - bundle install
+  - gem update --system 2.6.12
+  - gem install bundler --version 1.14.6
 
 
 before_script:
@@ -25,7 +26,6 @@ script: bundle exec rake site:deploy --quiet #--trace
 env:
   global:
     secure: "ROqPMKbFKdxlz2xHfjkyLt6Bu7A3aIxfiUVCYKh/M/GmdEBBjY3LDPex4lOI+OdK+GOeS6Xkdpz0zzPfJXiS5bS40y8VuNxNSi0+Y87jN+KYooCP5/lajoCiMD6q9KNl1vo7hXCcsU2qn9B+FGBrOYVylxwX9a2vrB8x8/OPx152Lk7/ZbsmFKAxY7xXnhDY5s2hZVqKkaMbMtGzeE31BWZBYWjVurKw5VmLB3J6VFEpvd+ckl8thPftP1T9ICOSx+L3f48Dl3wy+reJQOs/CrcYgfdBr+v4mi4G/OGZmB9qzOt/8zYFK6VMbZC8T/ENUD7MymXmEnvvR7t1MibLs9UR5TtFFQRGl2LkynBgcZcWmOYjiSUn67TpQTAVudYzXxuWjlIHQ+oQEduNPzMlFMMelVZzBYWoFa1MohsT9TROf1acPT6aycZBHcrTwuD22FDqbOc+QtSJtAkprb/o3LHDwRwrvgwDX7cXgUeXHfs5ZJ2t8UE1G1ZtGIH5KjZB1CPaS2tPCR3sBdoZooVFJerQEFWmjmpr0LGiwa0ZssHm9NuaLR3a7X+F2BiMPrFIrOD31bz0D1lWNYQSq3pHVb5dsYAeKpxDLCRF9ph66FFpmAu3Pz3vN/syWdlcq4QPW7nYMONxdX0+GYJwSgJMS6BBLqeUyJ6r2h8sWQhZtUM="
-    - master
 branches:
   only:
     - master
