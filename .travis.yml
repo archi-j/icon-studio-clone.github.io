@@ -1,0 +1,21 @@
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+  -2.4.2
+
+install:
+  -bundle install
+
+before_script:
+  - git config --global user.email "j_chung@yonsei.ac.kr"
+  - git config --global user.email "archi-j"
+
+script: bundle exec rake site: deploy --quiet #--trace
+
+env:
+  global:
+    secure: "fdifE3b0ENcMIwreX9V9QYMsG3Akbr4nQSCYRJavDfgLCHvUe78zscFF/4A24tfkGBFI6C4/RW+dmoiCoLzYeJ12dkYqpLs1D6SmQgkKBQfn5VciplRYCQ5KwS9sZDufxDLTnLYwTSWeofyPSYDtuFAP/IRdV/2giAdudu5qB9WzB8HgJcRPpvcwvK0gX7QY0BJAdNuWYM6bXjSa+KGYqkYQ7Tb8aWZwX6xY7ao9EU+DCdjDGAPEwT2Rq/EwSHP5AT75y8HpcRdqhvdK0CuR29t4JC2EleJSZmB8hO8nK/p0R7g4su3LhwrZwgaZ83vK81ZHqA1mzeO8MhwP95c7/8ylpeXpOwAAiCnX6YVPiixR7pg/4YsT1w4nH8cYyrblr/zaYGXxmbbM9QIscQez6iP/9ELYAZIcfQIG54t6LuCMbDh0eoRLCDmtzHe0nCF8ZnnBT7hqVH6LgExjhMG5wtjXe89AuxxexLOAUJpCoN71CwXNtevCdzCtOrEWnKfe7VYjGX9qbj5zG1I5d0d70oo6Iu1xQGq6/ttHdrdBLvrRxYHf6RdveJ7dgnYLuywWkTIMSfXM4H2ImijHkB1N43eXWPERpXAQRB6MEQ6Iwkbao1sDbdANrRXm0aUWgtU0zpq4Da2dGsnqj2R8sfpV+kaSnv1rI6nmjTRWJnTPRHk="
+branches:
+  only:
+    - master
