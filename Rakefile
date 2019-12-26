@@ -1,4 +1,3 @@
-# Rakefile
 #############################################################################
 #
 # Modified version of jekyllrb Rakefile
