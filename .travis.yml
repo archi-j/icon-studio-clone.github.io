@@ -7,13 +7,12 @@ rvm:
 
 install:
   # Install Jekyll and dependencies
-  - gem update --system 2.6.12
-  - gem install bundler --version 1.14.6
+  - bundle install
 
 
 before_script:
   - git config --global user.email "j_chung@yonsei.ac.kr"
-  - git config --global user.email "archi-j"
+  - git config --global user.name "archi-j"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
