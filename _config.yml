@@ -7,8 +7,8 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://archi-j.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 destination: ./builder3
-production_url: "https://archi-j.github.io/"
-source_url: "https://github.com/archi-j/icon-studio-clone.github.io"
+production_url: https://archi-j.github.io/
+source_url: https://github.com/archi-j/icon-studio-clone.github.io
 
 safe: False
 lsi: False
