@@ -996,7 +996,7 @@ table tfoot td {
 }
 
 .content-box {
-  padding: 30px;
+  padding: 25px;
   padding-left: 300px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1092,7 +1092,7 @@ table tfoot td {
 footer .copyright {
   font-size: 14px;
   text-align: center;
-  margin: 0;
+  margin: 7px;
 }
 
 .post {
@@ -1673,7 +1673,7 @@ a.newer-posts:hover {
 }
 
 .menu{
-  font-size:17px;
+  font-size:16px;
   line-height:1.8;
   list-style:none;
   margin:0;

@@ -1,11 +1,22 @@
 ---
 title: Construction 3D Printing
+description: Computer Vision aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 layout: main
 pagination:
     enabled: true
     category: 3DP
     per_page: 8
 ---
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">{{page.title}}</h1>
+        {{page.description}}
+    </div>
+  </div>
+</article>
+
 {% for post in paginator.posts %}
 
   <article class="post">
