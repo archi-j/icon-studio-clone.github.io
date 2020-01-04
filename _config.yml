@@ -50,7 +50,23 @@ pagination:
     sort_field: "date"
     sort_reverse: true
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", ".travis.yml"]
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor
+  - .travis.yml
+  - .bundle
+  - .asset-cache
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
 
 urls:
     - text: About
