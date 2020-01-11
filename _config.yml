@@ -74,3 +74,5 @@ urls:
       url: /3DP/
     - text: Computer Vision
       url: /CV/
+    - text: Contact
+      url: /contact/
