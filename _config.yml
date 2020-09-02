@@ -32,7 +32,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 100
 paginate_path: "/page/:num"
 
 exclude:
