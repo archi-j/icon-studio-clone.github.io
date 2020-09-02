@@ -1,7 +1,8 @@
 ---
+layout: main
 title: Grasshopper
 description: Grasshopper is a visual programming within the Rhinoceros 3D. It's one of the most powerful tools to automate repetitive tasks, but it's not easy for architecture students to stduy alone. These articles are my tutorials for them.acc
-layout: main
+permalink: /GH/
 category:GH
 ---
 <article class="article-page">
