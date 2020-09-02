@@ -3,12 +3,6 @@ description: Architectural Design / IT Construction / Computer Vision
 permalink: ':title/'
 baseurl: "/icon-studio.github.io" # the subpath of your site, e.g. /blog
 url: "https://archi-j.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-destination: ./builder3
-production_url: https://archi-j.github.io/
-source_url: https://github.com/archi-j/icon-studio-clone.github.io
-
-safe: False
-lsi: False
 
 username: archi-j
 repo: icon-studio-clone.github.io
