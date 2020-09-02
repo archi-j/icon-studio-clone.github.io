@@ -2,10 +2,6 @@
 title: Grasshopper
 description: Grasshopper is a visual programming within the Rhinoceros 3D. It's one of the most powerful tools to automate repetitive tasks, but it's not easy for architecture students to stduy alone. These articles are my tutorials for them.aaa
 layout: main
-pagination:
-    enabled: true
-    category: GH
-    per_page: 8
 ---
 <article class="article-page">
   <div class="page-content">
@@ -19,6 +15,7 @@ pagination:
 
 {% for post in paginator.posts %}
   {% if post.category == "GH" %}
+    {{post.category}}
     <article class="post">
       {% if post.img %}
         <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
