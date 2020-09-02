@@ -1,7 +1,7 @@
 title: "J. Chung: Designer, Builder & Runner"
 description: Architectural Design / IT Construction / Computer Vision
 permalink: ':title/'
-baseurl: "/icon-studio.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/icon-studio-clone.github.io" # the subpath of your site, e.g. /blog
 url: "https://archi-j.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 username: archi-j
